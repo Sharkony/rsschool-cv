@@ -1,7 +1,42 @@
-h1{
-    text-align: center; color: aquamarine;
+body{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Имя {
+    position: relative; left: 50px;
 }
 
-.pro1{
-    text-align: right; color: blueviolet;
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+   }
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container div{
+    min-width: 50px; border: 2px solid red;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-evenly;
+    align-items: left;
+    border: 2px solid red;
+    width: 1000px;
 }
