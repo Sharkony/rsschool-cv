@@ -1,10 +1,23 @@
 body{
-    display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 1000px;
+  min-height: 100vh;
+  margin: auto;
 }
+
 .Имя {
     position: relative; left: 50px;
+}
+
+h2{
+    text-decoration: underline;
+    background-color: aquamarine;
+}
+
+li{
+    margin-bottom: 25px;
 }
 
 .header{
@@ -14,21 +27,59 @@ body{
     align-content: space-evenly;
     align-items: center;
     margin: 20px;
-   }
+}
 
 .container{
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
+    align-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    max-width: 1000px;
 }
 
-.container div{
-    min-width: 50px; border: 2px solid red;
-}
-
-.footer{
+.aside_container{
+    width: 20%;
+    padding: 20px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    font-size: x-large;
+    
+    
+}
+
+.main_container{
+        width: 80%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+       
+        
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    font-size:30px;
+    padding: 10px;
+    background-color: rgb(61, 221, 221);
+}
+
+.footer_container{
+    display: flex;
+    padding: 0px 50px;
 }
 
 section{
@@ -37,6 +88,5 @@ section{
     justify-content: center;
     align-content: space-evenly;
     align-items: left;
-    border: 2px solid red;
-    width: 1000px;
+        
 }
