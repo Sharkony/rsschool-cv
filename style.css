@@ -39,23 +39,19 @@ li{
     max-width: 1000px;
 }
 
-.aside_container{
+.asideContainer{
     width: 20%;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    font-size: x-large;
-    
-    
+    font-size: x-large;    
 }
 
-.main_container{
+.mainContainer{
         width: 80%;
         padding: 20px;
         display: flex;
         flex-direction: column;
-       
-        
 }
 
 .navigation{
@@ -77,7 +73,7 @@ footer{
     background-color: rgb(61, 221, 221);
 }
 
-.footer_container{
+.footerContainer{
     display: flex;
     padding: 0px 50px;
 }
